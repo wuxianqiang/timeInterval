@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    table {
+      width: 200px;
+      margin: 0 auto;
+    }
+
+    .foot {
+      border-bottom: 1px dashed #666;
+    }
+
+    .title {
+      border-bottom: 1px dashed #666;
+      vertical-align: top;
+      text-align: center;
+      line-height: 48px;
+    }
+
+    .name {
+      border-collapse: collapse;
+      text-align: center;
+      word-wrap: break-word;
+      word-break: break-all;
+      font-size: 8px;
+      padding: 10px 5px;
+      vertical-align: top;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <table width="95%" cellpadding="0" cellspacing="0" style="table-layout:fixed;">
+      <thead>
+        <tr>
+          <th colspan="3" class="title">成绩单</th>
+        </tr>
+        <tr>
+          <th class="name">语文</th>
+          <th class="name">数学</th>
+          <th class="name">英语</th>
+        </tr>
+      </thead>
+      <tbody class="body">
+        <tr>
+          <td class="name">成绩成绩成绩成绩成绩成绩</td>
+          <td class="name">成绩成绩成绩成绩成绩成绩</td>
+          <td class="name">99</td>
+        </tr>
+        <tr>
+          <td class="name">成绩成绩成绩成绩成绩成绩</td>
+          <td class="name">33</td>
+          <td class="name">99</td>
+        </tr>
+        <tr>
+          <td class="name">55</td>
+          <td class="name">88</td>
+          <td class="name">44</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3" class="foot"></td>
+        </tr>
+      </tfoot>
+  </table>
+
+  <script src="./time.js"></script>
+  <script>
+
+    let res = calculateLastTime(2200, 2400, 15)
+    console.log(res)
+
+  </script>
+</body>
+</html>
